@@ -10,6 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+
 }
 
 .menu-left{
@@ -51,4 +54,84 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 952px;
+    height: 746px;
+}
+
+.channel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 902px;
+    height: 42px;
+}
+.channel-f {
+    display: flex;
+    align-items: center;         
+    gap: 10px;                  
+    background-color: #f9f9f9;   
+    padding: 10px;
+    border-radius: 8px;
+    max-width: fit-content;
+  }
+  
+  .channel-f img {
+    width: 42px;    
+    height: 42px;
+  }
+  
+  .channel-f h1 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .channel-f p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+  }
+.channel button {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #CC0000;
+    color: #FFFFFF;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 24px;
+}
+
+.like{
+    width: 63px;
+}
+
+.deslike{
+    width: 100px;
+}
+
+.share{
+    width: 115px;
+}
+
+.dowload{
+    width: 95px;
+}
+
+.description-msg{
+    width: 510px;
+    height: 64px;
 }
